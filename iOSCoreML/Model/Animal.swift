@@ -33,12 +33,34 @@ class Animal : Decodable, Identifiable{
         
         
         // Download the image data
-        self.imageData = getImage()
+        getImage()
         
     }
     
     private func getImage(){
+        // Create a URL object
+        let url = URL(string: imageURL)
         
+        // check URL isn't nil
+        guard url != nil else{
+            print("Couldn't get URL object")
+            return
+        }
+        
+        // get URL session
+        let session = URLSession.shared
+        
+        // Create the data task
+        let dataTask = session.dataTask(with: url!) { data, response, error in
+            
+            // Check that there are no errors and that there was data
+            if error == nil && data != nil{
+                self.imageData = data
+            }
+        }
+        
+        // Start the data task
+        dataTask.resume()
     }
 }
 
