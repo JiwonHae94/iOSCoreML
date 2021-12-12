@@ -16,8 +16,8 @@
 		7C70244D27665AB200197D36 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70244C27665AB200197D36 /* AnimalModel.swift */; };
 		7C70244F27665ACF00197D36 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70244E27665ACF00197D36 /* Animal.swift */; };
 		7C70245127665AF200197D36 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245027665AF200197D36 /* MainView.swift */; };
-		7C70245327665AFF00197D36 /* AnimalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245227665AFF00197D36 /* AnimalRowView.swift */; };
-		7C70245727665B1600197D36 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245627665B1600197D36 /* ProgressBarView.swift */; };
+		7C70245327665AFF00197D36 /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245227665AFF00197D36 /* AnimalRow.swift */; };
+		7C70245727665B1600197D36 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245627665B1600197D36 /* ProgressBar.swift */; };
 		7C70245A27665CB400197D36 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245927665CB400197D36 /* Constants.swift */; };
 		7C70245E2766618400197D36 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245D2766618400197D36 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
@@ -52,8 +52,8 @@
 		7C70244C27665AB200197D36 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		7C70244E27665ACF00197D36 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		7C70245027665AF200197D36 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		7C70245227665AFF00197D36 /* AnimalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRowView.swift; sourceTree = "<group>"; };
-		7C70245627665B1600197D36 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		7C70245227665AFF00197D36 /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
+		7C70245627665B1600197D36 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		7C70245927665CB400197D36 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7C70245D2766618400197D36 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,8 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				7C70245027665AF200197D36 /* MainView.swift */,
-				7C70245227665AFF00197D36 /* AnimalRowView.swift */,
-				7C70245627665B1600197D36 /* ProgressBarView.swift */,
+				7C70245227665AFF00197D36 /* AnimalRow.swift */,
+				7C70245627665B1600197D36 /* ProgressBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,8 +329,8 @@
 				7C70245127665AF200197D36 /* MainView.swift in Sources */,
 				7C702420276659E100197D36 /* iOSCoreMLApp.swift in Sources */,
 				7C70245A27665CB400197D36 /* Constants.swift in Sources */,
-				7C70245327665AFF00197D36 /* AnimalRowView.swift in Sources */,
-				7C70245727665B1600197D36 /* ProgressBarView.swift in Sources */,
+				7C70245327665AFF00197D36 /* AnimalRow.swift in Sources */,
+				7C70245727665B1600197D36 /* ProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
