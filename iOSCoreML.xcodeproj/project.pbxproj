@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		7C702420276659E100197D36 /* iOSCoreMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70241F276659E100197D36 /* iOSCoreMLApp.swift */; };
-		7C702422276659E100197D36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C702421276659E100197D36 /* ContentView.swift */; };
 		7C702424276659E300197D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C702423276659E300197D36 /* Assets.xcassets */; };
 		7C702427276659E300197D36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C702426276659E300197D36 /* Preview Assets.xcassets */; };
 		7C702431276659E300197D36 /* iOSCoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C702430276659E300197D36 /* iOSCoreMLTests.swift */; };
 		7C70243B276659E300197D36 /* iOSCoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70243A276659E300197D36 /* iOSCoreMLUITests.swift */; };
 		7C70243D276659E400197D36 /* iOSCoreMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70243C276659E400197D36 /* iOSCoreMLUITestsLaunchTests.swift */; };
+		7C70244D27665AB200197D36 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70244C27665AB200197D36 /* AnimalModel.swift */; };
+		7C70244F27665ACF00197D36 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70244E27665ACF00197D36 /* Animal.swift */; };
+		7C70245127665AF200197D36 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245027665AF200197D36 /* MainView.swift */; };
+		7C70245327665AFF00197D36 /* AnimalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245227665AFF00197D36 /* AnimalRowView.swift */; };
+		7C70245727665B1600197D36 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C70245627665B1600197D36 /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		7C70241C276659E100197D36 /* iOSCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C70241F276659E100197D36 /* iOSCoreMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCoreMLApp.swift; sourceTree = "<group>"; };
-		7C702421276659E100197D36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C702423276659E300197D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C702426276659E300197D36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C70242C276659E300197D36 /* iOSCoreMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCoreMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		7C702436276659E300197D36 /* iOSCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C70243A276659E300197D36 /* iOSCoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCoreMLUITests.swift; sourceTree = "<group>"; };
 		7C70243C276659E400197D36 /* iOSCoreMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCoreMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C70244C27665AB200197D36 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		7C70244E27665ACF00197D36 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		7C70245027665AF200197D36 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7C70245227665AFF00197D36 /* AnimalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRowView.swift; sourceTree = "<group>"; };
+		7C70245627665B1600197D36 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				7C70241F276659E100197D36 /* iOSCoreMLApp.swift */,
-				7C702421276659E100197D36 /* ContentView.swift */,
+				7C70244B27665A4500197D36 /* Model */,
+				7C70244927665A3A00197D36 /* Views */,
+				7C70244A27665A3F00197D36 /* ViewModels */,
+				7C70245827665B3E00197D36 /* APIs */,
 				7C702423276659E300197D36 /* Assets.xcassets */,
 				7C702425276659E300197D36 /* Preview Content */,
 			);
@@ -125,6 +136,39 @@
 				7C70243C276659E400197D36 /* iOSCoreMLUITestsLaunchTests.swift */,
 			);
 			path = iOSCoreMLUITests;
+			sourceTree = "<group>";
+		};
+		7C70244927665A3A00197D36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C70245027665AF200197D36 /* MainView.swift */,
+				7C70245227665AFF00197D36 /* AnimalRowView.swift */,
+				7C70245627665B1600197D36 /* ProgressBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C70244A27665A3F00197D36 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7C70244C27665AB200197D36 /* AnimalModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7C70244B27665A4500197D36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C70244E27665ACF00197D36 /* Animal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C70245827665B3E00197D36 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C702422276659E100197D36 /* ContentView.swift in Sources */,
+				7C70244F27665ACF00197D36 /* Animal.swift in Sources */,
+				7C70244D27665AB200197D36 /* AnimalModel.swift in Sources */,
+				7C70245127665AF200197D36 /* MainView.swift in Sources */,
 				7C702420276659E100197D36 /* iOSCoreMLApp.swift in Sources */,
+				7C70245327665AFF00197D36 /* AnimalRowView.swift in Sources */,
+				7C70245727665B1600197D36 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,8 @@ import SwiftUI
 struct iOSCoreMLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(AnimalModel())
         }
     }
 }
